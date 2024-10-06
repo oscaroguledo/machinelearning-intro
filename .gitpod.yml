@@ -1,0 +1,9 @@
+tasks:
+  - name: Install Packages
+    command: |
+      ./pip.sh -r requirements.txt
+      jupyter notebook --ip=0.0.0.0 --port=8888 --no-browser --allow-root
+
+ports:
+  - port: 8888
+    onOpen: open-preview

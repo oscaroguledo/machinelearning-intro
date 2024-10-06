@@ -1,5 +1,4 @@
 # machinelearning-intro
-Got it! Here's the updated `README.md` with your correct email address.
 
 ### `README.md`
 
