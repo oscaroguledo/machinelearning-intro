@@ -1,0 +1,109 @@
+{
+    "Machine Learning": {
+      "Supervised Learning": {
+        "Regression": [
+          "Linear Regression",
+          "Logistic Regression",
+          "Polynomial Regression",
+          "Ridge Regression",
+          "Lasso Regression",
+          "Elastic Net"
+        ],
+        "Classification": [
+          "Decision Trees",
+          "Random Forest",
+          "Support Vector Machines (SVM)",
+          "K-Nearest Neighbors (KNN)",
+          "Naive Bayes",
+          "Gradient Boosting Machines (GBM)",
+          "AdaBoost",
+          "XGBoost",
+          "LightGBM",
+          "CatBoost",
+          "Linear Discriminant Analysis (LDA)",
+          "Quadratic Discriminant Analysis (QDA)"
+        ],
+        "Time Series Forecasting": [
+          "ARIMA",
+          "SARIMA",
+          "Prophet",
+          "Holt-Winters Exponential Smoothing"
+        ]
+      },
+      "Unsupervised Learning": {
+        "Clustering": [
+          "K-Means Clustering",
+          "Hierarchical Clustering",
+          "DBSCAN",
+          "Gaussian Mixture Models (GMM)"
+        ],
+        "Dimensionality Reduction": [
+          "Principal Component Analysis (PCA)",
+          "t-Distributed Stochastic Neighbor Embedding (t-SNE)",
+          "Linear Discriminant Analysis (LDA)",
+          "Autoencoders"
+        ],
+        "Association Rule Learning": [
+          "Apriori Algorithm",
+          "Eclat Algorithm"
+        ]
+      }
+    },
+    "Deep Learning": {
+      "Feedforward Neural Networks": [
+        "Multi-Layer Perceptrons (MLP)"
+      ],
+      "Convolutional Neural Networks": [
+        "Standard CNN",
+        "Residual Networks (ResNet)",
+        "Inception Networks",
+        "U-Net",
+        "MobileNets"
+      ],
+      "Recurrent Neural Networks": [
+        "Standard RNN",
+        "Long Short-Term Memory (LSTM)",
+        "Gated Recurrent Unit (GRU)",
+        "Bidirectional RNNs"
+      ],
+      "Generative Models": [
+        "Generative Adversarial Networks (GANs)",
+        "Variational Autoencoders (VAE)"
+      ],
+      "Transformers": [
+        "BERT",
+        "GPT",
+        "T5",
+        "Transformer-XL"
+      ],
+      "Attention Mechanisms": [
+        "Self-Attention",
+        "Scaled Dot-Product Attention"
+      ]
+    },
+    "Artificial Intelligence": {
+      "Expert Systems": [
+        "Rule-Based Systems",
+        "Fuzzy Logic Systems"
+      ],
+      "Genetic Algorithms": [
+        "Evolutionary Algorithms"
+      ],
+      "Swarm Intelligence": [
+        "Particle Swarm Optimization",
+        "Ant Colony Optimization"
+      ],
+      "Reinforcement Learning": [
+        "Q-Learning",
+        "Deep Q-Networks (DQN)",
+        "Proximal Policy Optimization (PPO)",
+        "Actor-Critic Methods",
+        "Monte Carlo Tree Search (MCTS)"
+      ],
+      "Bayesian Networks": [
+        "Naive Bayes Classifier",
+        "Hidden Markov Models (HMM)"
+      ]
+    }
+  }
+  
