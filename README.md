@@ -38,7 +38,8 @@ To run this project, you will need Python 3.x and the following Python libraries
 You can install all dependencies by running:
 
 ```bash
-pip install -r requirements.txt
+   chmod +x pip.sh
+   ./pip.sh -r requirements.txt
 ```
 
 ### Setting Up a Virtual Environment
@@ -48,7 +49,7 @@ To avoid dependency conflicts, it is recommended that you use a virtual environm
 1. Create a virtual environment:
 
    ```bash
-   python -m venv venv
+   python3 -m venv venv
    ```
 
 2. Activate the virtual environment:
@@ -66,7 +67,8 @@ To avoid dependency conflicts, it is recommended that you use a virtual environm
 3. Install dependencies:
 
    ```bash
-   pip install -r requirements.txt
+   chmod +x pip.sh
+   ./pip.sh -r requirements.txt
    ```
 
 ### Running the Project
@@ -80,38 +82,11 @@ To avoid dependency conflicts, it is recommended that you use a virtual environm
 
    Navigate to the relevant notebook files to explore the data, build machine learning models, and visualize the results.
 
-2. **Python Scripts**:
-   For those who prefer Python scripts over notebooks, you can also run individual Python files that handle different parts of the machine learning pipeline. For example:
-
+### Uploading to git hub
    ```bash
-   python src/preprocessing.py
-   python src/models.py
+      chmod +x git-commit-push.sh
+      ./git-commit-push.sh comment
    ```
-
-### Machine Learning Models
-
-This project implements several machine learning models, including but not limited to:
-
-- **Logistic Regression**
-- **Decision Trees**
-- **Random Forest**
-- **Support Vector Machines (SVM)**
-- **k-Nearest Neighbors (k-NN)**
-
-Each model is evaluated and compared using performance metrics such as accuracy, precision, recall, F1-score, and more. Visualizations are provided to aid in understanding the performance of each model.
-
-## Next Steps
-
-After running the example models, you are encouraged to:
-
-- Experiment with different machine learning models.
-- Tweak hyperparameters to improve performance.
-- Apply additional evaluation metrics or perform cross-validation.
-- Add new datasets or extend the functionality to include deep learning models.
-
-## Contributions
-
-Feel free to contribute to this project by opening issues, creating pull requests, or suggesting new ideas. You can also fork the repository and enhance it as per your needs.
 
 ## License
 
