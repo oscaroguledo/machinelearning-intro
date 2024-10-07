@@ -90,7 +90,7 @@ To avoid dependency conflicts, it is recommended that you use a virtual environm
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/oscaroguledo/machinelearning-intro/blob/main/LICENSE) file for more details.
+This project is licensed under the Apache License. See the [LICENSE](https://github.com/oscaroguledo/machinelearning-intro/blob/main/LICENSE) file for more details.
 
 ## Contact
 
